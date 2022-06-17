@@ -1,5 +1,5 @@
 # React App Sandbox
-- This sandbox is for testing new features and functionality with React
+- This sandbox is for testing new features and functionality with React, react-bootstrap and bootswatch theme (Cerulean)
 
 
 
@@ -15,7 +15,7 @@ npx create-react app frontend
 # Clean Up Files
 - ./public/index.html - Update Title and Header
 - Delete: App.css, App.test.js, logo.svg, setupTest.js
-- Remove all code from index.css and convert to index.scss (Update index.js -> import './index.scss')
+- Remove all code from index.css
 
 # Update App.js
 - Convert to an arrow function and an empty fragment
@@ -28,6 +28,35 @@ npx create-react app frontend
 - cd to root folder
 - git init (Node_Modules should now be greyed out)
 
+# Create Header and Footer Components
+- mkdir ./src/components
+- touch Header.js Footer.js - update HTML Tags to <header> , <footer>
+- import into App.js
+
+# React-Bootstrap Setup
+- https://bootswatch.com/
+- Download min.css and place in .src folder - Update index.js -> import './bootstrap.min.css'
+- Stop Server - Install in FRONTEND FOLDER - react-bootstrap
+
+- https://react-bootstrap.github.io/getting-started/introduction
+- npm install react-bootstrap
+
+# Add dummy data to src folder and public/images
+
+# Screens
+- .src/screens/surfProductsScreen.js and HomeScreen
+
+# Router
+- Add React-router-dom to ./frontend folder
+- Update App.js
+- Update Header and SurfProductScreen with 'LinkContainer' from react-router-bootstrap
+
+
+
+
+
+
 # Packages
 npm install dotenv --save
+npm i react-router-dom react-router-bootstrap
 
